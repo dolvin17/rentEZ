@@ -4,6 +4,8 @@ import Whyus from "../../components/Whyus";
 import Products from "../../components/Products";
 import Navigation from "../../components/Navigation/Navigation";
 import Stage from "../../components/Stage/Stage";
+import Starting from "../../components/Stage/Starting";
+import Payments from "../../components/Stage/Payments";
 
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
 		<>
 		<Navigation />
 		<Stage/>
+		<Starting />
+		<Payments />
 	
 	</>
 	);
