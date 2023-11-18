@@ -11,6 +11,7 @@ import {
 	fantom,
 	gnosis,
 	goerli,
+	polygonMumbai,
 	mainnet,
 	optimism,
 	polygon,
@@ -18,6 +19,7 @@ import {
 
 const chains = [
 	goerli,
+	polygonMumbai,
 ];
 
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID || "";
