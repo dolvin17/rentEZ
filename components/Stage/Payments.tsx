@@ -2,28 +2,24 @@ import Image from "next/image";
 
 export default function Payments() {
   return (
-    <div className="flex items-center justify-center px-8 py-8  shadow-2xl rounded-3xl">
-      <div className="flex flex-col items-center gap-8 sm:flex-row md:flex-row">
-        <div className="flex flex-col items-center">
-          <h1 className="text-2xl text-left text-black md:text-center text-apple-system md:text-3xl">
-            Payments
-          </h1>
-
-          <p className="max-w-xl mx-auto mt-8 text-justify">
-		  We automate the payment process, guaranteeing security and transparency. 50% is made when signing and delivering the rented property, while the other 50% is made when receiving the property back.
-          </p>
-        </div>
-
-        <div className="flex flex-col-reverse md:flex-row">
-          <Image
-            src="/percentage.png"
-            alt=""
-            width={500}
-            height={500}
-            className="max-w-full"
-          />
-        </div>
-      </div>
-    </div>
-  );
+	<>
+		<div className="flex pt-4 flex-col-reverse w-full max-w-[22rem] mt-8">
+			<div className="mx-3 text-center">
+				<p className="font-bold text-center text-xl py-8">PAYMENTS</p>
+				<li className="text-justify pb-4">Our system automates payments, providing security and transparency.</li>
+				<li className="text-justify pb-4">50% payment upon signing and delivering the property, and 50% upon property return.</li>
+				
+			</div>
+			<div className="flex justify-center">
+			<Image
+			className="pb-4 duration-700 flex-flex-col sm:hover:skew-y-12"
+			src="/payments.svg"
+			alt=""
+			width={150}
+			height={150}
+			/>
+		</div>
+		</div>
+	</>
+	);
 }

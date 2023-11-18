@@ -6,15 +6,13 @@ export default function Stage() {
 		<div className="grid flex-wrap items-center justify-center grid-cols-2 px-8 pt-24 bg-her-pink sm:pt-32">
 			<div className="flex flex-col items-center justify-center">
 				<div className=" text-7xl font-bold px-16 text-right -translate-y-8 skew-x-6 text-black shadow-color-black">
-				Redefining P2P Rental
+				Redefining the Adventure with RentEZ
 					</div>
 						<div className="max-w-lg mt-4  text-black shadow-color-black sm:text-2xl">
-						Join the Future of Renting with Crypto Payments and Reputation NFTs
-							<p className="text-sm mt-4">
-							RentEZ is a revolutionary used goods marketplace that empowers users to rent second-hand items locally.
-							</p>
+						We are a Marketplace for Sporting-Goods Rental
 							<p className="text-sm mt-4" >
-							The decentralized app (dapp) connects individuals, ensuring safe and swift transactions.
+							
+							Our dapp ensures seamless transactions, with the added flexibility of collateral options, RentEZ goes the extra mile to make your rental experience even more rewarding. Say goodbye to the hassles of ownership and hello to the freedom of adventure.
 							</p>
 							<form className="my-16 sm:my-24 items-center justify-center flex">
 							<Link

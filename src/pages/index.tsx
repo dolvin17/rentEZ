@@ -1,11 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-import Whyus from "../../components/Whyus";
-import Products from "../../components/Products";
 import Navigation from "../../components/Navigation/Navigation";
 import Stage from "../../components/Stage/Stage";
 import Starting from "../../components/Stage/Starting";
-import Payments from "../../components/Stage/Payments";
+import Howitworks from "../../components/Stage/Howitworks";
+import Benefits from "../../components/Stage/Benefits";
+import Colateral from "../../components/Stage/Colateral";
 
 
 export default function Home() {
@@ -14,7 +12,9 @@ export default function Home() {
 		<Navigation />
 		<Stage/>
 		<Starting />
-		<Payments />
+		<Howitworks />
+		<Colateral />
+		<Benefits />
 	
 	</>
 	);
