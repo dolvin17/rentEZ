@@ -5,9 +5,9 @@ export default function Colateralizating() {
 	<>
 		<div className="flex pt-4 flex-col-reverse w-full max-w-[22rem] mt-1">
 			<div className="mx-3 text-center">
-				<p className="font-bold text-center text-xl py-8"> WHAT HAPPENS</p>
-				<li className=" text-justify pb-4">When you return the item in perfect condition and within the agreed period, you will receive your collateral back immediately. </li>
-				<li className=" text-justify pb-4">Your initial investment translates into long-term savings and exclusive benefits. If the experience was satisfactory for both of you, you will receive an NFT.</li>
+				<p className="text-xl font-bold text-center"> WHAT HAPPENS</p>
+				<p className="pb-4 ">When you return the item in perfect condition and within the agreed period, you will receive your collateral back immediately. </p>
+				<p className="pb-4 ">Your initial investment translates into long-term savings and exclusive benefits. If the experience was satisfactory for both of you, you will receive an NFT.</p>
 				
 			</div>
 			<div className="flex justify-center">

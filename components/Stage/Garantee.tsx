@@ -5,9 +5,9 @@ export default function Garantee() {
 	<>
 		<div className="flex pt-4 flex-col-reverse w-full max-w-[22rem] mt-1">
 			<div className="mx-3 text-center">
-				<p className="py-8 text-xl font-bold text-center"> COLATERAL </p>
-				<li className="pb-4 text-justify ">Improve your renting costs adding collateral, paving the way for reduced rental fees and exclusive perks.</li>
-				<li className="pb-4 text-justify ">The collateral you provide is like a deposit of trust. You don&apos;t lose it, it&apos;s just temporarily held to support the transaction.  </li>
+				<p className="text-xl font-bold text-center"> COLATERAL </p>
+				<p className="pb-4 ">Improve your renting costs adding collateral, paving the way for reduced rental fees and exclusive perks.</p>
+				<p className="pb-4 ">The collateral you provide is like a deposit of trust. You don&apos;t lose it, it&apos;s just temporarily held to support the transaction.  </p>
 				
 			</div>
 			<div className="flex justify-center">

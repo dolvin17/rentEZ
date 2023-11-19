@@ -14,15 +14,15 @@ export default function Starting() {
 			className="transition duration-700 delay-200 -translate-x-4 translate-y-3 hover:scale-125"
 			/>
 		</div>
-		<div className="flex flex-col items-center">
-			<h1 className="text-4xl font-bold text-left text-white md:text-center text-apple-system">
-			RentEZ
+		<div className="flex flex-col text-start">
+			<h1 className="text-4xl font-bold text-center text-white text-apple-system">
+			Renting Made EZ
 		</h1>
-		<p className="max-w-xl mx-auto mt-8 text-xl">
-			RentEZ allows you easily rent high-quality second-hand sports equipment locally.
+		<p className="max-w-xl mx-auto mt-8 text-xl text-center">
+			1. Rent high-quality sport equipment in your area
 		</p>
-		<p className="max-w-xl mx-auto mt-8 text-xl">
-		Whether you&apos;re into surfing, kitesurfing, hiking, or other thrilling activities, RentEZ connects people making it simple and secure to access top-notch gear without the hefty price tag.
+		<p className="max-w-xl mx-auto mt-8 text-xl text-center">
+		2. Surfing kitesurfing, hiking, you name it. RentEZ grants you access to quality gear without the hefty price tag.
 	</p>
 		</div>
 	</div>
